@@ -36,6 +36,12 @@
             outline: solid 2.5px var(--clr-grey);
         }
     }
+
+    @media screen and (max-width: 900px) {
+        .card__form {
+            width: 100%;
+        }        
+    }
     
     .card__table {
         width: 80%;
@@ -62,6 +68,19 @@
             }
         }
     }
+
+    @media screen and (max-width: 900px) {
+        .card__table {
+            width: 100%;
+        }
+        
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 100%;
+    }
 }
 
 .card--alternate {
@@ -84,3 +103,11 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .card--col {
+        .card__content {
+            display: initial;
+        }
+    }
+    
+}
