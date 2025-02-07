@@ -64,7 +64,7 @@
     }
 }
 
-.card--2 {
+.card--alternate {
     background-color: var(--clr-grey);
 }
 
@@ -83,3 +83,4 @@
         gap: 2em;
     }
 }
+
