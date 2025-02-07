@@ -103,6 +103,31 @@ body {
         }
     }
     
+    .card__table {
+        width: 80%;
+        text-align: left;
+        margin-top: 1em;
+        border-collapse: collapse;
+
+        tr {
+            height: 3em;
+
+            th {
+                border-top: solid 1px var(--clr-grey);
+                border-bottom: solid 2px var(--clr-grey);
+            }
+
+            td {
+                border-top: solid 1px var(--clr-grey);
+            }
+
+            button {
+                border: solid 1px var(--clr-dark);
+                border-radius: 1em;
+                background-color: var(--clr-grey);
+            }
+        }
+    }
 }
 
 .card--2 {
