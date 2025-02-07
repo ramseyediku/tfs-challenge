@@ -102,3 +102,8 @@ body {
 .card--right {
     margin-inline: auto 0;
 }
+
+.card--img {
+    border: solid var(--bottom-outline) var(--clr-dark);
+    margin-inline: auto;
+}
