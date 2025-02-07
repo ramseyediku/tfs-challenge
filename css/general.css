@@ -1,0 +1,18 @@
+:root {
+    --clr-light: #fff;
+    --clr-dark: #000;
+    --clr-grey: #D9D9D9;
+    --clr-accent: #FBF116;
+
+    --bottom-outline: 12.5px
+}
+
+body {
+    background-color: var(--clr-accent);
+    margin-bottom: 2em;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}

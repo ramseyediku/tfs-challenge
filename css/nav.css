@@ -1,0 +1,26 @@
+
+.nav {
+    font-size: 1.25rem;
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        width: fit-content;
+        margin-left: auto;
+        margin-block: 0;
+
+        a {
+            color: var(--clr-dark);
+            padding: .5em;
+            display: block;
+            transition: all 500ms ease-in-out;
+        }
+
+        a:hover, a:focus-within {
+            background-color: var(--clr-dark);
+            color: var(--clr-accent);
+            transition: all 500ms ease-in-out;
+        }
+    }
+}
