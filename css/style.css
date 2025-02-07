@@ -64,12 +64,13 @@ body {
             color: var(--clr-dark);
             padding: .5em;
             display: block;
+            transition: all 500ms ease-in-out;
         }
 
         a:hover, a:focus-within {
             background-color: var(--clr-dark);
             color: var(--clr-accent);
-            
+            transition: all 500ms ease-in-out;
         }
     }
 }
@@ -92,6 +93,13 @@ body {
         margin-top: 1em;
         background-color: var(--clr-dark);
         color: var(--clr-accent);
+        transition: all 500ms ease-in-out;
+
+        &:hover, &:focus-within {
+            background-color: var(--clr-accent);
+            color: var(--clr-dark);
+            transition: all 500ms ease-in-out;
+        }
     }
 
     .card__form {
@@ -99,7 +107,9 @@ body {
 
         input[type="text"], textarea {
             width: 80%;
+            margin-bottom: .5em;
             padding: 1em;
+            outline: solid 2.5px var(--clr-grey);
         }
     }
     
