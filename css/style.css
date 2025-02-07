@@ -152,3 +152,10 @@ body {
     border: solid var(--bottom-outline) var(--clr-dark);
     margin-inline: auto;
 }
+
+.card--col {
+    .card__content {
+        display: flex;
+        gap: 2em;
+    }
+}
