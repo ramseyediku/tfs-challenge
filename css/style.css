@@ -93,6 +93,16 @@ body {
         background-color: var(--clr-dark);
         color: var(--clr-accent);
     }
+
+    .card__form {
+        width: 80%;
+
+        input[type="text"], textarea {
+            width: 80%;
+            padding: 1em;
+        }
+    }
+    
 }
 
 .card--2 {
