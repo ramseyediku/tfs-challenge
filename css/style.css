@@ -68,3 +68,15 @@ body {
         }
     }
 }
+
+.card {
+    background: var(--clr-light);
+
+    .card__title {
+
+    }
+}
+
+.card--2 {
+    background-color: var(--clr-grey);
+}
