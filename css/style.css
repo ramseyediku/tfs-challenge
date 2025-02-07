@@ -3,10 +3,13 @@
     --clr-dark: #000;
     --clr-grey: #D9D9D9;
     --clr-accent: #FBF116;
+
+    --bottom-outline: 12.5px
 }
 
 body {
     background-color: var(--clr-accent);
+    margin-bottom: 2em;
 }
 
 .container {
@@ -47,6 +50,7 @@ body {
 
 
 .nav {
+    font-size: 1.25rem;
 
     ul {
         display: flex;
@@ -59,6 +63,7 @@ body {
         a {
             color: var(--clr-dark);
             padding: .5em;
+            display: block;
         }
 
         a:hover, a:focus-within {
@@ -71,12 +76,29 @@ body {
 
 .card {
     background: var(--clr-light);
+    border-bottom: solid var(--bottom-outline) var(--clr-dark);
+    padding: 2em;
+    width: 70%;
+    margin-inline: 0 auto;
 
     .card__title {
+        font-size: 2rem;
+    }
 
+    .card__button {
+        display: block;
+        width: fit-content;
+        padding: .75em 1.5em;
+        margin-top: 1em;
+        background-color: var(--clr-dark);
+        color: var(--clr-accent);
     }
 }
 
 .card--2 {
     background-color: var(--clr-grey);
+}
+
+.card--right {
+    margin-inline: auto 0;
 }
